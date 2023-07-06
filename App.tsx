@@ -22,6 +22,7 @@ export default function App() {
       <Mykeyboard/>
     </SafeAreaView>
     </themeContext.Provider>
+    
   );
 }
 
