@@ -15,14 +15,13 @@ export default function App() {
     <SafeAreaView style={theme === 'light' ? styles.container : [styles.container, {backgroundColor: '#000'}]}> 
       <StatusBar style="auto" />
       {/* este switch se le agregara la funcion de cambiar de color */}
-      <Switch 
+       <Switch 
         value ={theme === 'light'} 
         onValueChange={()=>setTheme(theme === 'light' ? 'dark' : 'light')}
-      />
+      /> 
       <Mykeyboard/>
     </SafeAreaView>
     </themeContext.Provider>
-    
   );
 }
 
