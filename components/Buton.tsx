@@ -14,7 +14,7 @@ export default function Button({title, onPress, isBlue, isGray}: ButtonProps) {
     return (
         <TouchableOpacity
         style={
-            isBlue || isGray
+            isBlue 
             ? Styles.btnBlue
             : isGray
             ? Styles.btnGray

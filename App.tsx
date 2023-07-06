@@ -14,7 +14,6 @@ export default function App() {
         value ={theme === 'light'} 
         onValueChange={()=>setTheme(theme === 'light' ? 'dark' : 'light')}
       /> 
-
     </SafeAreaView>
     {/* // eltheme,proiver es para proveer una caracteristica a todo el view */}
     < themeContext.Provider value ={theme} >
@@ -28,7 +27,6 @@ export default function App() {
     </>
   );
 }
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -41,5 +39,4 @@ const styles = StyleSheet.create({
     backgroundColor: colores.light,
     alignItems: 'center',
   }
-
 });
